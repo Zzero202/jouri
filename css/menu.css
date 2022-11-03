@@ -1,0 +1,194 @@
+*
+{
+    transition:all 1s;
+}
+.container-fluid{
+    padding:0;
+}
+.navbar1{
+    background:#039696 !important;
+}
+.bg-light{
+    background:#039696 !important;
+}
+.mr-auto{
+    margin-left:100px;
+}
+.nav-item a{
+    color:gray;
+    font-size:24px;
+    font-weight:bolder;
+    display:flex;
+    justify-content: space-between;
+    transition:all .5s;
+}
+@media screen and (max-width:992px){
+    .mr-auto{
+        margin-left:0;
+    }
+    
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: burlywood;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  @media screen and (max-width:992px){
+      .btn1{
+          display:none
+      }
+  }
+.icons {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .icons:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook-f {
+    background: #3B5998;
+    color: white;
+    padding:10px;
+    font-size:20px;
+    border-radius:50%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white; padding:10px;
+    font-size:20px;
+    border-radius: 250px;
+  }
+  
+  .fa-google-plus-g {
+    background: #dd4b39;
+    color: white; padding:10px;
+    font-size:20px;
+    border-radius: 250px;
+  }
+  
+  .fa-linkedin-in {
+    background: #007bb5;
+    color: white; padding:10px;
+    font-size:20px;
+    border-radius: 250px;
+  }
+  .sec1{
+      background:url('../images/Gejas_sandynoto_1.jpg');
+      background-size:cover;
+     background-attachment:fixed;
+      height:400px;
+
+  }
+  .sec1 h1{
+      line-height:400px;
+      font-family: BRUSHSCI;
+      text-align:center;
+      color:#039696;
+      font-size:100px;
+  }
+@media screen and (max-width:992px){
+  .sec1 h1{
+    line-height:400px;
+    font-family: BRUSHSCI;
+    text-align:center;
+    color:#039696;
+    font-size:50px;
+}
+}
+.navigation2{
+  color:#039696 !important;
+  
+}
+.sec2{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:50px;
+  margin-bottom:50px;
+  text-align:center;
+}
+.sec3{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:50px;
+  margin-bottom:50px;
+  text-align:center;
+}
+.sec4{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:50px;
+  margin-bottom:50px;
+  text-align:center;
+}
+@media screen and (max-width:992px){
+  .sec4{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;
+  }
+
+}
+@media screen and (max-width:992px){
+  .sec2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;
+  }
+
+}
+@media screen and (max-width:992px){
+  .sec3{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;
+  }
+
+}
